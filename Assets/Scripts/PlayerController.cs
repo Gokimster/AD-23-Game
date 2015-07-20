@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 
 public class PlayerController : MonoBehaviour {
@@ -14,7 +14,7 @@ public class PlayerController : MonoBehaviour {
 	public Transform groundCheck;
 	float groundRadius = 0.2f;
 	public LayerMask whatIsGround;
-	public float jumpForce = 30f;
+	public float jumpForce = 15f;
 	
 	//for Collision Raycasting
 	//behind
@@ -82,12 +82,32 @@ public class PlayerController : MonoBehaviour {
 	//jump action 
 	void Jump ()
 	{
-		if (grounded && Input.GetKeyDown (KeyCode.Space)) 
+		if (grounded && Input.GetKeyDown (KeyCode.W)) 
 		{
 			//anim.SetBool ("ground", false);
 			GetComponent<Rigidbody2D>().AddForce(new Vector2(0, jumpForce));
 		}
 		
+	}
+
+	void Crouch ()
+	{
+		if(grounded && Input.GetKeyDown (KeyCode.S))
+		{
+
+		}
+	}
+
+	void OnTriggerEnter2D (Collider2D col)
+	{
+		if(col.gameObject.tag == "Obstacle")
+		{
+			//end game
+		}
+	}
+
+	public void IncreaseSpeed (float inc){
+		speed += inc;
 	}
 
 	//check front colission for being stuck in air
