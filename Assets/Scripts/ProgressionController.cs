@@ -18,7 +18,7 @@ public class ProgressionController : MonoBehaviour {
 
 	void Update () 
 	{
-		time = GameObject.Find("Timer").GetComponent<Timer>.getTime();
+		time = GameObject.Find("Timer").GetComponent<Timer>().getTime();
 
 		if ((time > stageTimes[stage]) && (stage < maxStage))
 			NextStage();
@@ -36,7 +36,7 @@ public class ProgressionController : MonoBehaviour {
 
 	void NextStage ()
 	{
-		GameObject.Find("Player").GetComponent<PlayerController>.IncreaseSpeed(speedStages[stage]);
+		GameObject.Find("Player").GetComponent<PlayerController>().IncreaseSpeed(speedStages[stage]);
 		stage++;
 	}
 
