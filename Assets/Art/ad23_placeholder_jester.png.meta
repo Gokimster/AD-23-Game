@@ -1,0 +1,748 @@
+fileFormatVersion: 2
+guid: 73cdf44416569d44b98f29dee560ca4e
+timeCreated: 1437487005
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: ad23_placeholder_jester_0
+    21300002: ad23_placeholder_jester_1
+    21300004: ad23_placeholder_jester_2
+    21300006: ad23_placeholder_jester_3
+    21300008: ad23_placeholder_jester_4
+    21300010: ad23_placeholder_jester_5
+    21300012: ad23_placeholder_jester_6
+    21300014: ad23_placeholder_jester_7
+    21300016: ad23_placeholder_jester_8
+    21300018: ad23_placeholder_jester_9
+    21300020: ad23_placeholder_jester_10
+    21300022: ad23_placeholder_jester_11
+    21300024: ad23_placeholder_jester_12
+    21300026: ad23_placeholder_jester_13
+    21300028: ad23_placeholder_jester_14
+    21300030: ad23_placeholder_jester_15
+    21300032: ad23_placeholder_jester_16
+    21300034: ad23_placeholder_jester_17
+    21300036: ad23_placeholder_jester_18
+    21300038: ad23_placeholder_jester_19
+    21300040: ad23_placeholder_jester_20
+    21300042: ad23_placeholder_jester_21
+    21300044: ad23_placeholder_jester_22
+    21300046: ad23_placeholder_jester_23
+    21300048: ad23_placeholder_jester_24
+    21300050: ad23_placeholder_jester_25
+    21300052: ad23_placeholder_jester_26
+    21300054: ad23_placeholder_jester_27
+    21300056: ad23_placeholder_jester_28
+    21300058: ad23_placeholder_jester_29
+    21300060: ad23_placeholder_jester_30
+    21300062: ad23_placeholder_jester_31
+    21300064: ad23_placeholder_jester_32
+    21300066: ad23_placeholder_jester_33
+    21300068: ad23_placeholder_jester_34
+    21300070: ad23_placeholder_jester_35
+    21300072: ad23_placeholder_jester_36
+    21300074: ad23_placeholder_jester_37
+    21300076: ad23_placeholder_jester_38
+    21300078: ad23_placeholder_jester_39
+    21300080: ad23_placeholder_jester_40
+    21300082: ad23_placeholder_jester_41
+    21300084: ad23_placeholder_jester_42
+    21300086: ad23_placeholder_jester_43
+    21300088: ad23_placeholder_jester_44
+    21300090: ad23_placeholder_jester_45
+    21300092: ad23_placeholder_jester_46
+    21300094: ad23_placeholder_jester_47
+    21300096: ad23_placeholder_jester_48
+    21300098: ad23_placeholder_jester_49
+    21300100: ad23_placeholder_jester_50
+    21300102: ad23_placeholder_jester_51
+    21300104: ad23_placeholder_jester_52
+    21300106: ad23_placeholder_jester_53
+    21300108: ad23_placeholder_jester_54
+    21300110: ad23_placeholder_jester_55
+    21300112: ad23_placeholder_jester_56
+    21300114: ad23_placeholder_jester_57
+    21300116: ad23_placeholder_jester_58
+    21300118: ad23_placeholder_jester_59
+    21300120: ad23_placeholder_jester_60
+    21300122: ad23_placeholder_jester_61
+    21300124: ad23_placeholder_jester_62
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: ad23_placeholder_jester_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3626
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ad23_placeholder_jester_1
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 3626
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ad23_placeholder_jester_2
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 3626
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ad23_placeholder_jester_3
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 3626
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ad23_placeholder_jester_4
+      rect:
+        serializedVersion: 2
+        x: 1208
+        y: 3626
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ad23_placeholder_jester_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3324
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ad23_placeholder_jester_6
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 3324
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ad23_placeholder_jester_7
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 3324
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ad23_placeholder_jester_8
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 3324
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ad23_placeholder_jester_9
+      rect:
+        serializedVersion: 2
+        x: 1208
+        y: 3324
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ad23_placeholder_jester_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3022
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ad23_placeholder_jester_11
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 3022
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ad23_placeholder_jester_12
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 3022
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ad23_placeholder_jester_13
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 3022
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ad23_placeholder_jester_14
+      rect:
+        serializedVersion: 2
+        x: 1208
+        y: 3022
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ad23_placeholder_jester_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2720
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ad23_placeholder_jester_16
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 2720
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ad23_placeholder_jester_17
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 2720
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ad23_placeholder_jester_18
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 2720
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ad23_placeholder_jester_19
+      rect:
+        serializedVersion: 2
+        x: 1208
+        y: 2720
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ad23_placeholder_jester_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2418
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ad23_placeholder_jester_21
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 2418
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ad23_placeholder_jester_22
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 2418
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ad23_placeholder_jester_23
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 2418
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ad23_placeholder_jester_24
+      rect:
+        serializedVersion: 2
+        x: 1208
+        y: 2418
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ad23_placeholder_jester_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2116
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ad23_placeholder_jester_26
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 2116
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ad23_placeholder_jester_27
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 2116
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ad23_placeholder_jester_28
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 2116
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ad23_placeholder_jester_29
+      rect:
+        serializedVersion: 2
+        x: 1208
+        y: 2116
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ad23_placeholder_jester_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1814
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ad23_placeholder_jester_31
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 1814
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ad23_placeholder_jester_32
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 1814
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ad23_placeholder_jester_33
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 1814
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ad23_placeholder_jester_34
+      rect:
+        serializedVersion: 2
+        x: 1208
+        y: 1814
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ad23_placeholder_jester_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1512
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ad23_placeholder_jester_36
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 1512
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ad23_placeholder_jester_37
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 1512
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ad23_placeholder_jester_38
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 1512
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ad23_placeholder_jester_39
+      rect:
+        serializedVersion: 2
+        x: 1208
+        y: 1512
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ad23_placeholder_jester_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1210
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ad23_placeholder_jester_41
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 1210
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ad23_placeholder_jester_42
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 1210
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ad23_placeholder_jester_43
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 1210
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ad23_placeholder_jester_44
+      rect:
+        serializedVersion: 2
+        x: 1208
+        y: 1210
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ad23_placeholder_jester_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 908
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ad23_placeholder_jester_46
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 908
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ad23_placeholder_jester_47
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 908
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ad23_placeholder_jester_48
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 908
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ad23_placeholder_jester_49
+      rect:
+        serializedVersion: 2
+        x: 1208
+        y: 908
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ad23_placeholder_jester_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 606
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ad23_placeholder_jester_51
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 606
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ad23_placeholder_jester_52
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 606
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ad23_placeholder_jester_53
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 606
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ad23_placeholder_jester_54
+      rect:
+        serializedVersion: 2
+        x: 1208
+        y: 606
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ad23_placeholder_jester_55
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 304
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ad23_placeholder_jester_56
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 304
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ad23_placeholder_jester_57
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 304
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ad23_placeholder_jester_58
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 304
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ad23_placeholder_jester_59
+      rect:
+        serializedVersion: 2
+        x: 1208
+        y: 304
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ad23_placeholder_jester_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ad23_placeholder_jester_61
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 2
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ad23_placeholder_jester_62
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 2
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
