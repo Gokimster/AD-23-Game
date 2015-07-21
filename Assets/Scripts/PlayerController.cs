@@ -5,16 +5,13 @@ public class PlayerController : MonoBehaviour {
 	
 	//for moving
 	float move;
-	public float speed = 10f;
+	public float speed;
 	//public bool facingRight = true;
 	Animator anim;
 	
 	//for jumping
 	public bool grounded = false;
-	public Transform groundCheck;
-	float groundRadius = 0.2f;
-	public LayerMask whatIsGround;
-	public float jumpForce = 15f;
+	public float jumpForce;
 	
 	//for Collision Raycasting
 	//behind
@@ -31,15 +28,16 @@ public class PlayerController : MonoBehaviour {
 	// Use this for initialization
 	void Start () 
 	{
-		//anim = GetComponent<Animator>();
+		speed = 10f;
+		jumpForce = 300f;
 	}
 	
 	// Update is called once per frame
 	void Update () 
 	{
-		//DebugLines();
+		DebugLines();
 		//grounded = Physics2D.OverlapCircle (groundCheck.position, groundRadius, whatIsGround);
-		//SetGrounded ();
+		SetGrounded ();
 		//anim.SetBool ("ground", grounded);
 		//anim.SetFloat ("vSpeed", rigidbody2D.velocity.y);
 		
@@ -49,35 +47,23 @@ public class PlayerController : MonoBehaviour {
 		GetComponent<Rigidbody2D>().velocity = new Vector2 (speed, GetComponent<Rigidbody2D>().velocity.y);
 		
 	}
-	/*
 	void SetGrounded()
 	{
-		if(Physics2D.Linecast (bRBegin.position, bREnd.position, whatIsGround))
+		RaycastHit2D hit = Physics2D.Raycast (transform.position + new Vector3(0, -(transform.lossyScale.y/1.8f), 0), Vector2.down, .5f);
+		if (hit.collider != null && hit.collider.tag.Equals ("Ground"))
 		{
 			grounded = true;
-		}else
+		} else 
 		{
-			if(Physics2D.Linecast (bLBegin.position, bLEnd.position, whatIsGround))
-			{
-				grounded = true;
-			}else
-			{
-				grounded = false;
-			}
+			grounded = false;
 		}
 		
-	}*/
-	/*
+	}
+
 	void DebugLines()
 	{
-		Debug.DrawLine(lTBegin.position, lTEnd.position, Color.green);
-		Debug.DrawLine(lBBegin.position, lBEnd.position, Color.magenta);
-		Debug.DrawLine(rTBegin.position, rTEnd.position, Color.red);
-		Debug.DrawLine(rBBegin.position, rBEnd.position, Color.red);
-		Debug.DrawLine(bRBegin.position, bREnd.position, Color.red);
-		Debug.DrawLine(bLBegin.position, bLEnd.position, Color.red);
-		
-	}*/
+		Debug.DrawRay (transform.position + new Vector3(0, -(transform.lossyScale.y/1.8f), 0), Vector2.down, Color.blue);
+	}
 	
 	//jump action 
 	void Jump ()
