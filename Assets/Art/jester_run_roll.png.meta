@@ -1,9 +1,37 @@
 fileFormatVersion: 2
 guid: 51f3d3d8a0961c3498f2b97e8b5f6807
-timeCreated: 1437567395
+timeCreated: 1437567653
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: jester_run_roll_0
+    21300002: jester_run_roll_1
+    21300004: jester_run_roll_2
+    21300006: jester_run_roll_3
+    21300008: jester_run_roll_4
+    21300010: jester_run_roll_5
+    21300012: jester_run_roll_6
+    21300014: jester_run_roll_7
+    21300016: jester_run_roll_8
+    21300018: jester_run_roll_9
+    21300020: jester_run_roll_10
+    21300022: jester_run_roll_11
+    21300024: jester_run_roll_12
+    21300026: jester_run_roll_13
+    21300028: jester_run_roll_14
+    21300030: jester_run_roll_15
+    21300032: jester_run_roll_16
+    21300034: jester_run_roll_17
+    21300036: jester_run_roll_18
+    21300038: jester_run_roll_19
+    21300040: jester_run_roll_20
+    21300042: jester_run_roll_21
+    21300044: jester_run_roll_22
+    21300046: jester_run_roll_23
+    21300048: jester_run_roll_24
+    21300050: jester_run_roll_25
+    21300052: jester_run_roll_26
+    21300054: jester_run_roll_27
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -26,18 +54,18 @@ TextureImporter:
   cubemapConvolutionSteps: 8
   cubemapConvolutionExponent: 1.5
   seamlessCubemap: 0
-  textureFormat: -1
-  maxTextureSize: 2048
+  textureFormat: -3
+  maxTextureSize: 4096
   textureSettings:
     filterMode: -1
-    aniso: -1
+    aniso: 16
     mipBias: -1
     wrapMode: 1
   nPOTScale: 0
   lightmap: 0
   rGBM: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -48,7 +76,287 @@ TextureImporter:
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: jester_run_roll_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1746
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: jester_run_roll_1
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 1746
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: jester_run_roll_2
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 1746
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: jester_run_roll_3
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 1746
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: jester_run_roll_4
+      rect:
+        serializedVersion: 2
+        x: 1208
+        y: 1746
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: jester_run_roll_5
+      rect:
+        serializedVersion: 2
+        x: 1510
+        y: 1746
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: jester_run_roll_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1444
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: jester_run_roll_7
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 1444
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: jester_run_roll_8
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 1444
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: jester_run_roll_9
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 1444
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: jester_run_roll_10
+      rect:
+        serializedVersion: 2
+        x: 1208
+        y: 1444
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: jester_run_roll_11
+      rect:
+        serializedVersion: 2
+        x: 1510
+        y: 1444
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: jester_run_roll_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1142
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: jester_run_roll_13
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 1142
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: jester_run_roll_14
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 1142
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: jester_run_roll_15
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 1142
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: jester_run_roll_16
+      rect:
+        serializedVersion: 2
+        x: 1208
+        y: 1142
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: jester_run_roll_17
+      rect:
+        serializedVersion: 2
+        x: 1510
+        y: 1142
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: jester_run_roll_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 840
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: jester_run_roll_19
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 840
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: jester_run_roll_20
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 840
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: jester_run_roll_21
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 840
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: jester_run_roll_22
+      rect:
+        serializedVersion: 2
+        x: 1208
+        y: 840
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: jester_run_roll_23
+      rect:
+        serializedVersion: 2
+        x: 1510
+        y: 840
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: jester_run_roll_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 538
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: jester_run_roll_25
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 538
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: jester_run_roll_26
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 538
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: jester_run_roll_27
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 538
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 
   assetBundleName: 

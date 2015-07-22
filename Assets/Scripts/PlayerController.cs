@@ -156,7 +156,9 @@ public class PlayerController : MonoBehaviour {
 	void Die ()
 	{
 		anim.SetBool ("isDead", true);
+		Physics2D.IgnoreLayerCollision(9,11,true);
 		speed = 0f;
+		GameObject.Find ("Timer").GetComponent<Timer> ().EndTimer ();
 	}
 
 	//check front colission for being stuck in air

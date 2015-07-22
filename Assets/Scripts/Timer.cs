@@ -14,22 +14,37 @@ public class Timer : MonoBehaviour {
 		time = 0;
 		highScore = PlayerPrefs.GetFloat("highScore");
 		score = GetComponent<Text> ();
+		isTiming = true;
 	}
 
 	void Update () 
 	{
-		time += Time.deltaTime;
-		score.text = time.ToString ("0.00");
+		if (isTiming) {
+			time += Time.deltaTime;
+			score.text = time.ToString ("0.00");
+		}
 	}
 
 	void OnEnd ()
 	{
+		isTiming = false;
 		if(time > highScore)
 			PlayerPrefs.SetFloat("highScore", time);
+
 	}
 
-	public float getTime ()
+	public float GetTime ()
 	{
 		return time;
+	}
+
+	public void EndTimer ()
+	{
+		OnEnd ();
+	}
+
+	void PauseTimer (bool pause)
+	{
+		isTiming = pause;
 	}
 }
