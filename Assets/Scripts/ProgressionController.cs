@@ -5,7 +5,7 @@ public class ProgressionController : MonoBehaviour {
 	
 	float time;
 	int stage;
-	int maxStage = 6;
+	int maxStage = 7;
 	int[] stageTimes;
 	float[] speedStages;
 
@@ -26,17 +26,17 @@ public class ProgressionController : MonoBehaviour {
 
 	void InitStageTimes ()
 	{
-		stageTimes = new int[] {20,30,40,50,60,70,80};
+		stageTimes = new int[] {5,10,15,20,25,30,40,50};
 	}
 
 	void InitSpeedStages ()
 	{
-		speedStages = new float[] {5,4,3,2,2,1};
+		speedStages = new float[] {4,4,3,3,2,2,1};
 	}
 
 	void NextStage ()
 	{
-		GameObject.Find("Player").GetComponent<PlayerController>().IncreaseSpeed(speedStages[stage]);
+		GameObject.Find("Character").GetComponent<PlayerController>().IncreaseSpeed(speedStages[stage]);
 		stage++;
 	}
 
