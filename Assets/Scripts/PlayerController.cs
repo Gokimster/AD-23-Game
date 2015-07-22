@@ -12,7 +12,11 @@ public class PlayerController : MonoBehaviour {
 	//for jumping
 	public bool grounded = false;
 	public float jumpForce;
-	public bool isRolling;
+
+	//fire
+	bool isOnFire;
+	float fireStartTime;
+	int fireDuration;
 
 	//colliders
 	[SerializeField]
@@ -26,9 +30,11 @@ public class PlayerController : MonoBehaviour {
 		jumpForce = 600f;
 		anim = GetComponent<Animator> ();
 		SetJumping ();
-		isRolling = false;
 		currentColliderIndex = 0;
 		SetCollider (currentColliderIndex);
+		isOnFire = false;
+		fireStartTime = 0;
+		fireDuration = 5;
 	}
 	
 	// Update is called once per frame
@@ -43,6 +49,8 @@ public class PlayerController : MonoBehaviour {
 		
 		Jump ();
 		Roll ();
+		if (isOnFire)
+			CheckFirePower ();
 
 		//CheckFrontColission ();
 		//anim.SetFloat ("speed", Mathf.Abs (move));
@@ -94,11 +102,9 @@ public class PlayerController : MonoBehaviour {
 
 	void Roll ()
 	{
-		isRolling = false;
 		anim.SetBool ("isRolling", false);
 		if(grounded && Input.GetKey (KeyCode.S))
 		{
-			isRolling = true;
 			anim.SetBool("isRolling", true);
 		}
 	}
@@ -114,12 +120,43 @@ public class PlayerController : MonoBehaviour {
 	{
 		if(col.gameObject.tag == "Obstacle")
 		{
-			//end game
+			Die();
+		}
+		if(col.gameObject.tag == "PowerUp")
+		{
+			PowerUp();
 		}
 	}
 
 	public void IncreaseSpeed (float inc){
 		speed += inc;
+	}
+
+	void CheckFirePower ()
+	{
+		if (Time.time - fireStartTime >= fireDuration) {
+			isOnFire = false;
+			anim.SetBool("isOnFire", false);
+			Physics2D.IgnoreLayerCollision(9,11,false);
+		}
+	}
+
+	void StartFire (){
+		isOnFire = true;
+		fireStartTime = Time.time;
+		anim.SetBool ("isOnFire", true);
+		Physics2D.IgnoreLayerCollision(9,11,true);
+	}
+
+	void PowerUp ()
+	{
+		StartFire ();
+	}
+
+	void Die ()
+	{
+		anim.SetBool ("isDead", true);
+		speed = 0f;
 	}
 
 	//check front colission for being stuck in air
