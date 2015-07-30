@@ -41,19 +41,13 @@ public class PlayerController : MonoBehaviour {
 	void Update () 
 	{
 		DebugLines();
-		//grounded = Physics2D.OverlapCircle (groundCheck.position, groundRadius, whatIsGround);
 		SetGrounded ();
 		SetJumping ();
-		//anim.SetBool ("ground", grounded);
-		//anim.SetFloat ("vSpeed", rigidbody2D.velocity.y);
 		
 		Jump ();
 		Roll ();
 		if (isOnFire)
 			CheckFirePower ();
-
-		//CheckFrontColission ();
-		//anim.SetFloat ("speed", Mathf.Abs (move));
 		GetComponent<Rigidbody2D>().velocity = new Vector2 (speed, GetComponent<Rigidbody2D>().velocity.y);
 		
 	}

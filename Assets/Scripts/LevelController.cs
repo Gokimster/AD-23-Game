@@ -36,7 +36,6 @@ public class LevelController : MonoBehaviour
 			AddSegment (0 + i * SEGMENT_LENGTH, false);
 		}
 		GameObject seg = Instantiate (tutorial);
-		tutorial.transform.SetParent(transform);
 		tutorial.transform.position = new Vector3 (SEGMENT_LENGTH, tutorial.transform.position.y, tutorial.transform.position.z);
 	}
 

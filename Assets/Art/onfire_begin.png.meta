@@ -1,9 +1,19 @@
 fileFormatVersion: 2
 guid: a4e3611b43aaecc409f8735d98ff7131
-timeCreated: 1438249410
+timeCreated: 1438257521
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: onfire_begin_0
+    21300002: onfire_begin_1
+    21300004: onfire_begin_2
+    21300006: onfire_begin_3
+    21300008: onfire_begin_4
+    21300010: onfire_begin_5
+    21300012: onfire_begin_6
+    21300014: onfire_begin_7
+    21300016: onfire_begin_8
+    21300018: onfire_begin_9
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -37,7 +47,7 @@ TextureImporter:
   lightmap: 0
   rGBM: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -48,7 +58,107 @@ TextureImporter:
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: onfire_begin_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 431
+        width: 390
+        height: 431
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: onfire_begin_1
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 431
+        width: 390
+        height: 431
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: onfire_begin_2
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 431
+        width: 390
+        height: 431
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: onfire_begin_3
+      rect:
+        serializedVersion: 2
+        x: 1170
+        y: 431
+        width: 390
+        height: 431
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: onfire_begin_4
+      rect:
+        serializedVersion: 2
+        x: 1560
+        y: 431
+        width: 390
+        height: 431
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: onfire_begin_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 390
+        height: 431
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: onfire_begin_6
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 0
+        width: 390
+        height: 431
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: onfire_begin_7
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 0
+        width: 390
+        height: 431
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: onfire_begin_8
+      rect:
+        serializedVersion: 2
+        x: 1170
+        y: 0
+        width: 390
+        height: 431
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: onfire_begin_9
+      rect:
+        serializedVersion: 2
+        x: 1560
+        y: 0
+        width: 390
+        height: 431
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 
   assetBundleName: 

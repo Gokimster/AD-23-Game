@@ -1,9 +1,21 @@
 fileFormatVersion: 2
 guid: ad72ce6314d5d0f4b9f848090e91e002
-timeCreated: 1438249411
+timeCreated: 1438257632
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: onfire_state_0
+    21300002: onfire_state_1
+    21300004: onfire_state_2
+    21300006: onfire_state_3
+    21300008: onfire_state_4
+    21300010: onfire_state_5
+    21300012: onfire_state_6
+    21300014: onfire_state_7
+    21300016: onfire_state_8
+    21300018: onfire_state_9
+    21300020: onfire_state_10
+    21300022: onfire_state_11
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -37,7 +49,7 @@ TextureImporter:
   lightmap: 0
   rGBM: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -48,7 +60,127 @@ TextureImporter:
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: onfire_state_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 423
+        width: 311
+        height: 423
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: onfire_state_1
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 423
+        width: 311
+        height: 423
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: onfire_state_2
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 423
+        width: 311
+        height: 423
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: onfire_state_3
+      rect:
+        serializedVersion: 2
+        x: 933
+        y: 423
+        width: 311
+        height: 423
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: onfire_state_4
+      rect:
+        serializedVersion: 2
+        x: 1244
+        y: 423
+        width: 311
+        height: 423
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: onfire_state_5
+      rect:
+        serializedVersion: 2
+        x: 1555
+        y: 423
+        width: 311
+        height: 423
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: onfire_state_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 311
+        height: 423
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: onfire_state_7
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 0
+        width: 311
+        height: 423
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: onfire_state_8
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 0
+        width: 311
+        height: 423
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: onfire_state_9
+      rect:
+        serializedVersion: 2
+        x: 933
+        y: 0
+        width: 311
+        height: 423
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: onfire_state_10
+      rect:
+        serializedVersion: 2
+        x: 1244
+        y: 0
+        width: 311
+        height: 423
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: onfire_state_11
+      rect:
+        serializedVersion: 2
+        x: 1555
+        y: 0
+        width: 311
+        height: 423
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 
   assetBundleName: 
