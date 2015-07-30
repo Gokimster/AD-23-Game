@@ -1,0 +1,374 @@
+fileFormatVersion: 2
+guid: ff78439c6b26ae149bb7a590eb4f12be
+timeCreated: 1438250250
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: jester_death_onfire_0
+    21300002: jester_death_onfire_1
+    21300004: jester_death_onfire_2
+    21300006: jester_death_onfire_3
+    21300008: jester_death_onfire_4
+    21300010: jester_death_onfire_5
+    21300012: jester_death_onfire_6
+    21300014: jester_death_onfire_7
+    21300016: jester_death_onfire_8
+    21300018: jester_death_onfire_9
+    21300020: jester_death_onfire_10
+    21300022: jester_death_onfire_11
+    21300024: jester_death_onfire_12
+    21300026: jester_death_onfire_13
+    21300028: jester_death_onfire_14
+    21300030: jester_death_onfire_15
+    21300032: jester_death_onfire_16
+    21300034: jester_death_onfire_17
+    21300036: jester_death_onfire_18
+    21300038: jester_death_onfire_19
+    21300040: jester_death_onfire_20
+    21300042: jester_death_onfire_21
+    21300044: jester_death_onfire_22
+    21300046: jester_death_onfire_23
+    21300048: jester_death_onfire_24
+    21300050: jester_death_onfire_25
+    21300052: jester_death_onfire_26
+    21300054: jester_death_onfire_27
+    21300056: jester_death_onfire_28
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 4096
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: jester_death_onfire_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1210
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: jester_death_onfire_1
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 1210
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: jester_death_onfire_2
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 1210
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: jester_death_onfire_3
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 1210
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: jester_death_onfire_4
+      rect:
+        serializedVersion: 2
+        x: 1208
+        y: 1210
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: jester_death_onfire_5
+      rect:
+        serializedVersion: 2
+        x: 1510
+        y: 1210
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: jester_death_onfire_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 908
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: jester_death_onfire_7
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 908
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: jester_death_onfire_8
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 908
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: jester_death_onfire_9
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 908
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: jester_death_onfire_10
+      rect:
+        serializedVersion: 2
+        x: 1208
+        y: 908
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: jester_death_onfire_11
+      rect:
+        serializedVersion: 2
+        x: 1510
+        y: 908
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: jester_death_onfire_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 606
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: jester_death_onfire_13
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 606
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: jester_death_onfire_14
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 606
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: jester_death_onfire_15
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 606
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: jester_death_onfire_16
+      rect:
+        serializedVersion: 2
+        x: 1208
+        y: 606
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: jester_death_onfire_17
+      rect:
+        serializedVersion: 2
+        x: 1510
+        y: 606
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: jester_death_onfire_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 304
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: jester_death_onfire_19
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 304
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: jester_death_onfire_20
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 304
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: jester_death_onfire_21
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 304
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: jester_death_onfire_22
+      rect:
+        serializedVersion: 2
+        x: 1208
+        y: 304
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: jester_death_onfire_23
+      rect:
+        serializedVersion: 2
+        x: 1510
+        y: 304
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: jester_death_onfire_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: jester_death_onfire_25
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 2
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: jester_death_onfire_26
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 2
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: jester_death_onfire_27
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 2
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: jester_death_onfire_28
+      rect:
+        serializedVersion: 2
+        x: 1208
+        y: 2
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
