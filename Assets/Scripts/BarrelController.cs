@@ -8,7 +8,7 @@ public class BarrelController : MonoBehaviour
 	// Use this for initialization
 	void Start () {
 		barrelType = Random.Range (1, BARREL_NO);
-		gameObject.GetComponent<SpriteRenderer> ().sprite = Resources.Load<Sprite> ("Art/rock"+barrelType.ToString());
+		gameObject.GetComponent<SpriteRenderer> ().sprite = Resources.Load<Sprite> ("Art/barrel"+barrelType.ToString());
 	}
 	
 	// Update is called once per frame

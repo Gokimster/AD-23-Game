@@ -8,6 +8,8 @@ public class LevelController : MonoBehaviour
 	ArrayList segments;
 	//constants
 	float SEGMENT_LENGTH;
+	int segmentParts;
+	float partPopulateProbability;
 	int TUT_SEGMENT_COUNT;
 
 	GameObject segment;
@@ -46,7 +48,8 @@ public class LevelController : MonoBehaviour
 			segments.RemoveAt (0);
 		}
 		GameObject seg = Instantiate (segment);
-		seg.GetComponent<Segment>().SetXPosition (x);
+		seg.GetComponent<Segment>().SetDimensions (SEGMENT_LENGTH, x);
+		seg.GetComponent<Segment>().SetProgression (partPopulateProbability, segmentParts);
 		seg.transform.parent = transform;
 		segments.Add (seg);
 	}
